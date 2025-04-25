@@ -84,12 +84,15 @@ Aqui estão algumas das funcionalidades e melhorias que ainda precisam ser imple
 ```
 Projeto/
 ├── main.c
-├── bilhete.c
-├── assentos.c
-├── utils.c
+├── CMakeLists.txt
+├── src/
+│   ├── bilhete.c
+│   ├── bilheteria.c
+│   ├── menu.c
 ├── include/
 │   ├── bilhete.h
-│   ├── assentos.h
+│   ├── bilheteria.h
+│   ├── menu.h
 │   └── utils.h
 └── README.md
 ```
