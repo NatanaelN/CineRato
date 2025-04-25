@@ -10,7 +10,7 @@ O sistema simula a bilheteria de um cinema, com funcionalidades como reserva de 
 - Luis Felipe Trega
 - Natanael Neves
 - Thiago Vieira
-- Raphael Luis
+- Raphael Luiz
 - Wagner Serpa
 
 ---
