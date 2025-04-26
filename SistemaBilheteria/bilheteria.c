@@ -4,8 +4,8 @@
 
 #include "bilheteria.h"
 #include "utils.h"
-
-
+#include <conio.h>
+#include <stdio.h>
 
 Data ExtrairData(const char *s) {
     while (*s) {
@@ -58,21 +58,95 @@ void inicializarBilheteria(Bilheteria *bilheteria) {
     bilheteria->num_filmes = 0;
     bilheteria->num_bilhetes = 0;
     bilheteria->proximo_numero_bilhete = 1;
-
+    bilheteria->isAdmin = false;
     // Inicializa a sala com todos os lugares disponíveis
-    for (int i = 0; i < MAX_LINHAS; i++) {
-        for (int j = 0; j < MAX_COLUNAS; j++) {
-            bilheteria->sala[i][j] = 'D';
+    for(int f = 1; f < MAX_SALAS; f++) {
+        for (int i = 0; i < MAX_LINHAS; i++) {
+            for (int j = 0; j < MAX_COLUNAS; j++) {
+                bilheteria->sala[f][i][j] = 'D';
+            }
         }
     }
+
 }
+
+
+void LimparSalas(Bilheteria *bilheteria) {
+
+    for(int f = 1; f <= bilheteria->num_filmes; f++) {
+        for (int i = 0; i < MAX_LINHAS; i++) {
+            for (int j = 0; j < MAX_COLUNAS; j++) {
+                bilheteria->sala[f][i][j] = 'D';
+            }
+        }
+    }
+
+}
+
+
+void DeletarBilhete(Bilheteria *bilheteria, int ingresso, int sala) {
+
+
+        int max = bilheteria->num_bilhetes, min = 0;
+
+    while(min <= max) {
+        int metade = min + (max- min) / 2;
+
+        if(ingresso == bilheteria->bilhetes[metade].numero_bilhete) {
+
+           int coluna =  bilheteria->bilhetes->coluna;
+            int fileira =  bilheteria->bilhetes->fileira;
+
+            bilheteria->sala[sala][coluna][fileira] = 'D';
+
+            for(int f = metade; f <= bilheteria->num_bilhetes; f++) {
+                bilheteria->bilhetes[f] = bilheteria->bilhetes[f + 1];
+            }
+
+            bilheteria->num_bilhetes--;
+        }
+
+        if(ingresso > metade) {
+            min = metade + 1;
+        } else {
+            max = metade - 1;
+        }
+
+    }
+
+
+
+
+}
+
+bool Login() {
+    char email[50];
+    char password[50];
+
+    printf("Email de administrador: ");
+    fgets(email, sizeof(email), stdin);
+    email[strcspn(email, "\n")] = '\0';
+
+    printf("Senha de administrador: ");
+    fgets(password, sizeof(password), stdin);
+    password[strcspn(password, "\n")] = '\0';
+
+    if (strcmp(email, EMAIL_ADM) == 0 && strcmp(password, SENHA_ADM) == 0) {
+        return true;
+    }
+
+    return false;
+}
+
 
 // Adiciona um filme à lista de filmes disponíveis
 void adicionarFilme(Bilheteria *bilheteria, const char *nome,
                     const char *data) {
     if (bilheteria->num_filmes < MAX_FILMES) {
+
         strcpy(bilheteria->filmes[bilheteria->num_filmes].nome, nome);
         bilheteria->filmes[bilheteria->num_filmes].data_lancamento = ExtrairData(data);
+        bilheteria->filmes[bilheteria->num_filmes].sala = bilheteria->num_filmes + 1;
         bilheteria->num_filmes++;
     } else {
         printf("Limite de filmes atingido.\n");
@@ -83,9 +157,9 @@ void adicionarFilme(Bilheteria *bilheteria, const char *nome,
 void exibirFilmes(Bilheteria *bilheteria) {
     setlocale(LC_ALL, "");
     printf("\n=***** %sFilmes da sessao%s *****=\n\n", AZUL_BASICO, LIMPAR);
-    printf("[ID]\t| %s%20s%s\t| Lancamento |\n",NEGRITO, "Filme", LIMPAR);
+    printf("[SALA]\t| %s%20s%s\t| Lancamento |\n",NEGRITO, "Filme", LIMPAR);
     for (int i = 0; i < bilheteria->num_filmes; i++) {
-        printf("[%d]\t| %s%40s%s\t| %c%d - %c%d - %d |\n", i + 1, VERDE_BASICO,
+        printf("[%d]\t| %s%40s%s\t| %c%d - %c%d - %d |\n", bilheteria->filmes[i].sala, VERDE_BASICO,
                bilheteria->filmes[i]
                .nome, LIMPAR, bilheteria->filmes[i].data_lancamento.dia < 10 ? '0' : ' ', bilheteria->filmes[i].data_lancamento.dia,
                bilheteria->filmes[i].data_lancamento.mes < 10 ? '0' : ' ',
@@ -95,14 +169,15 @@ void exibirFilmes(Bilheteria *bilheteria) {
     printf("============================================\n");
 }
 
-void exibirLançamentos(Bilheteria *bilheteria) {
+void exibirLancamentos(Bilheteria *bilheteria) {
     setlocale(LC_ALL, "");
     Filme filmes[bilheteria->num_filmes];
 
     filmeSort(bilheteria, filmes);
-
+    printf("\n=***** %sFilmes da sessao%s *****=\n\n", AZUL_BASICO, LIMPAR);
+    printf("[SALA]\t| %s%20s%s\t| Lancamento |\n",NEGRITO, "Filme", LIMPAR);
     for (int i = 0; i < bilheteria->num_filmes; i++) {
-        printf("[%d]\t| %s%40s%s\t| %c%d - %c%d - %d |\n", i + 1, VERDE_BASICO,
+        printf("[%d]\t| %s%40s%s\t| %c%d - %c%d - %d |\n", filmes[i].sala, VERDE_BASICO,
                filmes[i]
                .nome, LIMPAR,filmes[i].data_lancamento.dia < 10 ? '0' : ' ',
                filmes[i].data_lancamento.dia,filmes[i].data_lancamento.mes < 10 ? '0' : ' ', filmes[i].data_lancamento.mes,
@@ -116,7 +191,7 @@ void exibirLançamentos(Bilheteria *bilheteria) {
 
 
 // Exibe a disposição da sala
-void exibirSala(Bilheteria *bilheteria) {
+void exibirSala(Bilheteria *bilheteria, int sala) {
     setlocale(LC_ALL, "");
     printf("\n=*** Selecione sua poltrona ***=\n");
     printf("  ");
@@ -127,11 +202,11 @@ void exibirSala(Bilheteria *bilheteria) {
     for (int i = 0; i < MAX_LINHAS; i++) {
         printf(" %s%c%s ", AZUL_BASICO, 'A' + i, LIMPAR);
         for (int j = 0; j < MAX_COLUNAS; j++) {
-            const char h4 = bilheteria->sala[i][j];
+            const char h4 = bilheteria->sala[sala][i][j];
             if (h4 == 'X') {
-                printf(" %s%c%s ", VERM_BASICO, bilheteria->sala[i][j], LIMPAR);
+                printf(" %s%c%s ", VERM_BASICO, bilheteria->sala[sala][i][j], LIMPAR);
             } else {
-                printf(" %s%c%s ", VERDE_BASICO, bilheteria->sala[i][j],
+                printf(" %s%c%s ", VERDE_BASICO, bilheteria->sala[sala][i][j],
                        LIMPAR);
             }
         }
@@ -164,21 +239,22 @@ int traduzirCoordenada(const char *entrada, int *linha, int *coluna) {
 // Reserva um lugar na sala
 int reservarLugar(Bilheteria *bilheteria, const int linha, const int coluna,
                   const char *nome_cliente, const char *tipo_ingresso,
-                  const char *nome_filme) {
+                   const Filme filme) {
     setlocale(LC_ALL, "");
 
     Bilhete novo_bilhete;
     novo_bilhete.numero_bilhete = bilheteria->proximo_numero_bilhete++;
     novo_bilhete.fileira = linha;
     novo_bilhete.coluna = coluna;
+    novo_bilhete.sala = filme.sala;
     strcpy(novo_bilhete.nome_cliente, nome_cliente);
     strcpy(novo_bilhete.tipo_ingresso, tipo_ingresso);
-    strcpy(novo_bilhete.nome_filme, nome_filme);
+    strcpy(novo_bilhete.nome_filme, filme.nome);
 
     // Adiciona o bilhete ao sistema
     if (bilheteria->num_bilhetes < MAX_LINHAS * MAX_COLUNAS) {
         bilheteria->bilhetes[bilheteria->num_bilhetes++] = novo_bilhete;
-        bilheteria->sala[linha - 1][coluna - 1] = 'X';
+        bilheteria->sala[filme.sala][linha - 1][coluna - 1] = 'X';
         // Marca a poltrona como ocupada
         return novo_bilhete.numero_bilhete; // Retorna o número do bilhete
     } else {
@@ -187,7 +263,8 @@ int reservarLugar(Bilheteria *bilheteria, const int linha, const int coluna,
     }
 }
 
-void solicitarReserva(Bilheteria *bilheteria, const char *nome_filme) {
+void solicitarReserva(Bilheteria *bilheteria, const Filme filme) {
+
     char coordenada[10];
     int linha;
     int coluna;
@@ -204,7 +281,7 @@ void solicitarReserva(Bilheteria *bilheteria, const char *nome_filme) {
         return;
     }
 
-    if (bilheteria->sala[linha - 1][coluna - 1] != 'D') {
+    if (bilheteria->sala[filme.sala][linha - 1][coluna - 1] != 'D') {
         printf("Poltrona (%c%d) ja ocupada!\n", linha + 'A' - 1, coluna);
         return;
     }
@@ -234,7 +311,7 @@ void solicitarReserva(Bilheteria *bilheteria, const char *nome_filme) {
     }
 
     int num_bilhete = reservarLugar(bilheteria, linha, coluna, nome,
-                                    tipo_ingresso, nome_filme);
+                                    tipo_ingresso, filme);
     if (num_bilhete != -1) {
         printf("Reserva feita com sucesso! Nº do bilhete: %d\n", num_bilhete);
     } else {

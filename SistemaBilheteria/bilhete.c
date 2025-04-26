@@ -42,6 +42,8 @@ void imprimirBilhete(Bilheteria *bilheteria, const int indice_bilhete) {
                bilheteria->bilhetes[indice_bilhete].nome_cliente);
         printf("| Ingresso:\t%s\t|\n",
                bilheteria->bilhetes[indice_bilhete].tipo_ingresso);
+        printf("| Sala:\t%d\t|\n",
+              bilheteria->bilhetes[indice_bilhete].sala);
         printf("%s%s================================================%s\n",
                NEGRITO, VERDE_BASICO,
                LIMPAR);
