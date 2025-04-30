@@ -67,29 +67,57 @@ void menu_principal() {
                 exibirLancamentos(&cinema);
                 break;
             }
-            case 2: {
-                system("cls");
-
-                if (cinema.num_filmes > 0) {
-                    exibirFilmes(&cinema);
-                    int escolha_filme;
-                    printf("Selecione o filme (sala) > ");
-                    scanf("%d", &escolha_filme);
-                    getchar();
-
-                    if (escolha_filme >= 1 && escolha_filme <= cinema.
-                        num_filmes) {
-                        exibirSala(&cinema, escolha_filme);
-                        solicitarReserva(&cinema,
-                                         cinema.filmes[escolha_filme - 1]);
-                    } else {
-                        printf("Opcao de filme invalida.\n");
-                    }
-                } else {
-                    printf("Nenhum filme cadastrado ainda.\n");
-                }
-                break;
-            }
+            case 2: system("cls");
+			if (cinema.num_filmes > 0) {
+				exibirFilmes(&cinema);
+				int escolha_filme;
+				printf("Selecione o filme (sala) > ");
+				scanf("%d", &escolha_filme);
+				getchar();
+				
+				if (escolha_filme >= 1 && escolha_filme
+					<= cinema.
+					num_filmes) {
+					int quantidade;
+					printf(
+						"Quantos bilhetes deseja emitir? ");
+					scanf("%d", &quantidade);
+					getchar();
+					if (quantidade <= 0 ||
+						quantidade > (
+							MAX_LINHAS *
+							MAX_COLUNAS - cinema
+							.
+							num_bilhetes)) {
+						printf(
+							"Quantidade invalida ou excede assentos disponiveis.\n");
+						break;
+					}
+					for (int i = 0; i < quantidade;
+						i++) {
+						printf(
+							"\n--- Reserva %d de %d ---\n",
+							i + 1,
+							quantidade);
+						exibirSala(
+							&cinema,
+							escolha_filme);
+						solicitarReserva(
+							&cinema,
+							cinema.filmes[
+								escolha_filme
+								- 1]);
+					}
+				} else {
+					printf(
+						"Opcao de filme invalida.\n");
+				}
+			} else {
+				printf(
+					"Nenhum filme cadastrado ainda.\n");
+			}
+			break;
+		}
             case 3: {
                 if (&cinema.num_bilhetes > 0) {
                     int numero_buscar;
