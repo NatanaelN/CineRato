@@ -1,3 +1,0 @@
-C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 02/01-25 - Estrutura de Dados/Trabalho_bilheteria/SistemaBilheteria/cmake-build-debug/CMakeFiles/SistemaBilheteria.dir
-C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 02/01-25 - Estrutura de Dados/Trabalho_bilheteria/SistemaBilheteria/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 02/01-25 - Estrutura de Dados/Trabalho_bilheteria/SistemaBilheteria/cmake-build-debug/CMakeFiles/rebuild_cache.dir

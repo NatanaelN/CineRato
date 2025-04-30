@@ -24,8 +24,8 @@
 #define LIMPAR "\033[0m"
 
 
-#define SENHA_ADM "CINERATAO123"
-#define EMAIL_ADM "CINERATAO@admin.com"
+#define SENHA_ADM "******"
+#define EMAIL_ADM "ADMIN@cinerato.com"
 
 
 
