@@ -1,7 +1,7 @@
-#include "menu.h"
+#include "view/menu_principal.h"
 
 
 void main() {
-    menu();
+    menu_principal();
 
 }

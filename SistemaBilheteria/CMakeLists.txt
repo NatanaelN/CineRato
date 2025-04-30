@@ -3,13 +3,18 @@ project(SistemaBilheteria C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(SistemaBilheteria main.c
-        utils.h
-        bilheteria.c
-        bilheteria.h
-        bilhete.c
-        bilhete.h
-        menu.c
-        menu.h
-        main.c
-        main.c)
+
+# Fonte: todos os .c em src/ e main.c
+file(GLOB_RECURSE SOURCES
+        "${CMAKE_SOURCE_DIR}/src/*.c"
+        "${CMAKE_SOURCE_DIR}/main.c"
+)
+
+# Executável
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+# Include root
+target_include_directories(${PROJECT_NAME}
+        PRIVATE
+        ${CMAKE_SOURCE_DIR}/include
+)
