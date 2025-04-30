@@ -9,8 +9,8 @@ O sistema simula a bilheteria de um cinema, com funcionalidades como reserva de 
 
 - Luis Felipe Trega
 - Natanael Neves
-- Thiago Vieira
 - Raphael Luiz
+- Thiago Vieira
 - Wagner Serpa
 
 ---
@@ -23,29 +23,20 @@ O sistema simula a bilheteria de um cinema, com funcionalidades como reserva de 
 - 📋 Relatórios ordenados por tipo de ingresso e número
 - 💾 Manipulação de TADs e estruturas de dados
 - 🧪 Menu interativo para testes
-
+**Menu de Acesso Gerencial**  
+**Melhoria na Interface do Usuário (UI)** 
+**Persistência de Dados em Arquivo** 
 ---
 
 ## 🚧 Implementações Pendentes
 
 Aqui estão algumas das funcionalidades e melhorias que ainda precisam ser implementadas no sistema:
 
-1. **Menu de Acesso Gerencial**  
-   Implementar a funcionalidade para inserção de novos filmes dinamicamente, resetar salas, acesso a relatórios, cancelamento de bilhetes, menu acessível somente com login e senha de funcionário.
 
-2. **Relatório de Pagamento**  
+1. **Relatório de Pagamento**  
    Criar um sistema que calcule o pagamento dos ingressos, Combos? Talvez!
 
-3. **Melhoria na Interface do Usuário (UI)**  
-   A interface de menu interativo precisa de melhorias, como a adição de cores, validações de entrada e navegação mais intuitiva.
-
-4. **Melhoria na Interface do Usuário (UI)**  
-   Padronização da interface, seja com cores e tamanho.
-
-5. **Persistência de Dados em Arquivo**  
-   Implementar a funcionalidade para salvar os dados de reserva e vendas em um arquivo (TXT, JSON, CSV, etc.), permitindo que as informações sejam mantidas após a execução do programa.
-
-6. **Easter-eggs**  
+2. **Easter-eggs**  
    Coloca o peixe por favorzinho.
 
 ---
