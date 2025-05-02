@@ -23,9 +23,9 @@ O sistema simula a bilheteria de um cinema, com funcionalidades como reserva de 
 - 📋 Relatórios ordenados por tipo de ingresso e número
 - 💾 Manipulação de TADs e estruturas de dados
 - 🧪 Menu interativo para testes
-**Menu de Acesso Gerencial**  
-**Melhoria na Interface do Usuário (UI)** 
-**Persistência de Dados em Arquivo** 
+- Menu de Acesso Gerencial
+- Melhoria na Interface do Usuário (UI)
+- Persistência de Dados em Arquivo
 ---
 
 ## 🚧 Implementações Pendentes
@@ -47,13 +47,13 @@ Aqui estão algumas das funcionalidades e melhorias que ainda precisam ser imple
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/NatanaelN/CineRato.git
+   git clone https://github.com/NatanaelN/Trabalho_bilheteria.git
 
 
 2. Acesse a pasta:
 
    ```bash
-   cd bilheteria-cinema
+   cd SistemaBilheteria
    ```
 
 3. Compile com `gcc` (ou use o CLion se preferir):
@@ -75,16 +75,34 @@ Aqui estão algumas das funcionalidades e melhorias que ainda precisam ser imple
 ```
 Projeto/
 ├── main.c
+├── data/
 ├── CMakeLists.txt
 ├── src/
-│   ├── bilhete.c
-│   ├── bilheteria.c
-│   ├── menu.c
+│   ├── controller/
+│      ├── reserva.c
+│      ├── storage.c
+│   ├── model/
+│      ├── bilhete.c
+│      ├── bilheteria.c
+│   ├── view/
+│      ├── menu.c
+│      ├── menu_gerencial.c
+│      ├── menu_principal.c
+│      ├── visual.c
 ├── include/
-│   ├── bilhete.h
-│   ├── bilheteria.h
-│   ├── menu.h
-│   └── utils.h
+│   ├── controller/
+│      ├── reserva.h
+│      ├── storage.h
+│   ├── model/
+│      ├── bilhete.h
+│      ├── bilheteria.h
+│      ├── struct.h
+│   ├── view/
+│      ├── menu.h
+│      ├── menu_gerencial.h
+│      ├── menu_principal.h
+│      ├── visual.h
+├── common.h
 └── README.md
 ```
 
