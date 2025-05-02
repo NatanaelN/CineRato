@@ -185,7 +185,7 @@ void menu_principal() {
                 case 4:
                     printf("Saindo do sistema...\n");
                     liberarBilheteria(&cinema);
-                    exit('0');
+                    exit(0);
 
                 default:
                     printf("Opcao invalida. Tente novamente.\n");

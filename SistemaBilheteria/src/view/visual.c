@@ -173,7 +173,7 @@ void imprimirBilhete(const Bilheteria *B, int idx) {
 
     // Cabeçalho
     criacao_caixa(t_caixa2);
-    centralizar_retornos("** Bilheteria CineRatao **");
+    centralizar_retornos("** Bilheteria Grupo 8 **");
     criacao_caixa(t_caixa2);
 
     for (int i = 0; itens_bilhete[i] != NULL; i++) {

@@ -114,8 +114,8 @@ void DeletarBilhete(Bilheteria *bilheteria, int ingresso, int sala) {
         int metade = min + (max - min) / 2;
 
         if (ingresso == bilheteria->bilhetes[metade].numero_bilhete) {
-            int coluna = bilheteria->bilhetes[0].coluna;
-            int fileira = bilheteria->bilhetes[0].fileira;
+            int coluna = bilheteria->bilhetes[metade].coluna;
+            int fileira = bilheteria->bilhetes[metade].fileira;
 
             bilheteria->sala[sala][coluna][fileira] = 'D';
 

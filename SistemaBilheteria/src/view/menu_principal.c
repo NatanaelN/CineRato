@@ -57,7 +57,7 @@ void menu_principal() {
         pos[j] = 1;
 
         criacao_caixa(TAMCAIXA);
-        centralizar_retornos("=***** Bilheteria CineRatao *****=");
+        centralizar_retornos("=***** Bilheteria Grupo 8 *****=");
         criacao_caixa(TAMCAIXA);
         char *campos_iniciais[] = {
             "Ver lancamentos", "Reserva de poltrona", "Impressao de bilhete", "Tela de administrador", "Sair", NULL
@@ -185,7 +185,7 @@ void menu_principal() {
                 case 4:
                     printf("Saindo do sistema...\n");
                     liberarBilheteria(&cinema);
-                    exit('0');
+                    exit(0);
 
                 default:
                     printf("Opcao invalida. Tente novamente.\n");

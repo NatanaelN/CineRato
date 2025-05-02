@@ -16,7 +16,7 @@
 #define LIMPAR "\033[0m"
 
 // Credenciais padrão
-#define SENHA_ADM "123"
-#define EMAIL_ADM "123"
+#define SENHA_ADM "******"
+#define EMAIL_ADM "ADMIN@cine8.com"
 
 #endif // COMMON_H

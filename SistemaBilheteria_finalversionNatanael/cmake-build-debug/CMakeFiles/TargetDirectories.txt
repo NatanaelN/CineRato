@@ -1,3 +1,0 @@
-C:/Users/natan/Desktop/final/SistemaBilheteria/cmake-build-debug/CMakeFiles/SistemaBilheteria.dir
-C:/Users/natan/Desktop/final/SistemaBilheteria/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/natan/Desktop/final/SistemaBilheteria/cmake-build-debug/CMakeFiles/rebuild_cache.dir

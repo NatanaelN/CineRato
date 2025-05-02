@@ -69,12 +69,11 @@ void menu_gerencial(Bilheteria *cinema) {
                 break;
             case 0:
                 printf("Saindo da tela gerencial...\n");
-                printf("Digite ENTER para continuar\n");
-                getchar();
+                system("pause")
 
                 break;
             default:
-                printf("Opcao invalida. Tente novamente.\n");
+                printf("Opção inválida! Por favor, escolha uma opção válida de 0 a 4.\n");
         }
     } while (opcao_adm != 0);
 }

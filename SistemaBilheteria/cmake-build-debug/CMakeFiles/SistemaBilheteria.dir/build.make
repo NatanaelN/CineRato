@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\natan\Desktop\final\SistemaBilheteria
+CMAKE_SOURCE_DIR = C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SistemaBilheteria.dir/depend.make
@@ -73,138 +73,138 @@ CMakeFiles/SistemaBilheteria.dir/codegen:
 
 CMakeFiles/SistemaBilheteria.dir/main.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/main.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/main.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/main.c
+CMakeFiles/SistemaBilheteria.dir/main.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/main.c
 CMakeFiles/SistemaBilheteria.dir/main.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SistemaBilheteria.dir/main.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/main.c.obj -MF CMakeFiles\SistemaBilheteria.dir\main.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\main.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SistemaBilheteria.dir/main.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/main.c.obj -MF CMakeFiles\SistemaBilheteria.dir\main.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\main.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\main.c
 
 CMakeFiles/SistemaBilheteria.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/main.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\main.c > CMakeFiles\SistemaBilheteria.dir\main.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\main.c > CMakeFiles\SistemaBilheteria.dir\main.c.i
 
 CMakeFiles/SistemaBilheteria.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/main.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\main.c -o CMakeFiles\SistemaBilheteria.dir\main.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\main.c -o CMakeFiles\SistemaBilheteria.dir\main.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/controller/reserva.c
+CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/controller/reserva.c
 CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\controller\reserva.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\controller\reserva.c
 
 CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\controller\reserva.c > CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\controller\reserva.c > CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/controller/reserva.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\controller\reserva.c -o CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\controller\reserva.c -o CMakeFiles\SistemaBilheteria.dir\src\controller\reserva.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/controller/storage.c
+CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/controller/storage.c
 CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\controller\storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\controller\storage.c
 
 CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\controller\storage.c > CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\controller\storage.c > CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/controller/storage.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\controller\storage.c -o CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\controller\storage.c -o CMakeFiles\SistemaBilheteria.dir\src\controller\storage.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/model/bilhete.c
+CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/model/bilhete.c
 CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\model\bilhete.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\model\bilhete.c
 
 CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\model\bilhete.c > CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\model\bilhete.c > CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/model/bilhete.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\model\bilhete.c -o CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\model\bilhete.c -o CMakeFiles\SistemaBilheteria.dir\src\model\bilhete.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/model/bilheteria.c
+CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/model/bilheteria.c
 CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\model\bilheteria.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\model\bilheteria.c
 
 CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\model\bilheteria.c > CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\model\bilheteria.c > CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/model/bilheteria.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\model\bilheteria.c -o CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\model\bilheteria.c -o CMakeFiles\SistemaBilheteria.dir\src\model\bilheteria.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/view/menu.c
+CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/view/menu.c
 CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu.c
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu.c > CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu.c > CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/view/menu.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu.c -o CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu.c -o CMakeFiles\SistemaBilheteria.dir\src\view\menu.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/view/menu_gerencial.c
+CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/view/menu_gerencial.c
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu_gerencial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu_gerencial.c
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu_gerencial.c > CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu_gerencial.c > CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/view/menu_gerencial.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu_gerencial.c -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu_gerencial.c -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_gerencial.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/view/menu_principal.c
+CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/view/menu_principal.c
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu_principal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu_principal.c
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu_principal.c > CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu_principal.c > CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/view/menu_principal.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\menu_principal.c -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\menu_principal.c -o CMakeFiles\SistemaBilheteria.dir\src\view\menu_principal.c.s
 
 CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj: CMakeFiles/SistemaBilheteria.dir/flags.make
 CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj: CMakeFiles/SistemaBilheteria.dir/includes_C.rsp
-CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj: C:/Users/natan/Desktop/final/SistemaBilheteria/src/view/visual.c
+CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj: C:/Users/natan/Desktop/SistemaBilheteria_finalversionNatanael/src/view/visual.c
 CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj: CMakeFiles/SistemaBilheteria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.obj -c C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\visual.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.obj -MF CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.obj.d -o CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.obj -c C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\visual.c
 
 CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.i"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\visual.c > CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\visual.c > CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.i
 
 CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SistemaBilheteria.dir/src/view/visual.c.s"
-	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\final\SistemaBilheteria\src\view\visual.c -o CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\src\view\visual.c -o CMakeFiles\SistemaBilheteria.dir\src\view\visual.c.s
 
 # Object files for target SistemaBilheteria
 SistemaBilheteria_OBJECTS = \
@@ -234,7 +234,7 @@ SistemaBilheteria.exe: CMakeFiles/SistemaBilheteria.dir/build.make
 SistemaBilheteria.exe: CMakeFiles/SistemaBilheteria.dir/linkLibs.rsp
 SistemaBilheteria.exe: CMakeFiles/SistemaBilheteria.dir/objects1.rsp
 SistemaBilheteria.exe: CMakeFiles/SistemaBilheteria.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable SistemaBilheteria.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable SistemaBilheteria.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SistemaBilheteria.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -246,6 +246,6 @@ CMakeFiles/SistemaBilheteria.dir/clean:
 .PHONY : CMakeFiles/SistemaBilheteria.dir/clean
 
 CMakeFiles/SistemaBilheteria.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\natan\Desktop\final\SistemaBilheteria C:\Users\natan\Desktop\final\SistemaBilheteria C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug C:\Users\natan\Desktop\final\SistemaBilheteria\cmake-build-debug\CMakeFiles\SistemaBilheteria.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug C:\Users\natan\Desktop\SistemaBilheteria_finalversionNatanael\cmake-build-debug\CMakeFiles\SistemaBilheteria.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SistemaBilheteria.dir/depend
 

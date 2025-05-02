@@ -59,7 +59,7 @@ void menu_gerencial(Bilheteria *cinema) {
             case 4:
                 int bilhete;
                 int sala;
-                exibirFilmes(cinema); //exibirFilmes(&cinema);
+                exibirFilmes(cinema);
                 printf("Numero da sala: ");
                 scanf("%d", &sala);
                 printf("Numero do bilhete: ");
@@ -69,12 +69,10 @@ void menu_gerencial(Bilheteria *cinema) {
                 break;
             case 0:
                 printf("Saindo da tela gerencial...\n");
-                printf("Digite ENTER para continuar\n");
-                getchar();
-
+                system("pause");
                 break;
             default:
-                printf("Opcao invalida. Tente novamente.\n");
+                printf("Opcao invalida! Por favor, escolha uma opção valida de 0 a 4.\n");
         }
     } while (opcao_adm != 0);
 }

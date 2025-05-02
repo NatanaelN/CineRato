@@ -31,7 +31,8 @@ void meusBilhetes(const Bilheteria *bilheteria, const int indice) {
     fprintf(fp, "=========== BILHETE ===========\n");
     fprintf(fp, "Número do Bilhete: %d\n", b.numero_bilhete);
     fprintf(fp, "Filme: %s\n", b.nome_filme);
-    fprintf(fp, "Assento: %c%d\n", 'A' + b.fileira, b.coluna + 1);
+    fprintf(fp, "Assento: %c%d\n", b.fileira, b.coluna);
+    //fprintf(fp, "Assento: %c%d\n", 'A' + b.fileira, b.coluna + 1);
     fprintf(fp, "Cliente: %s\n", b.nome_cliente);
     fprintf(fp, "Tipo de Ingresso: %s\n", b.tipo_ingresso);
     fprintf(fp, "================================\n");
